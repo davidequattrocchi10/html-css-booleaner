@@ -6,6 +6,7 @@
 }
 /* #endregion Common */
 
+/* #region Header */
 
 #site_header{
     background-color: rgb(0, 179, 255);
@@ -14,6 +15,10 @@
     padding: 1rem 1rem;
     
 }
+/* #endregion Header */
+
+/* #region Main */
+
 #site_main{
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 12rem;
@@ -25,11 +30,12 @@
 }
 .author{
     font-size: 1rem;
-    color:grey;  
+    color:grey; 
 }
 .date{
     font-size: 0.9rem;
-    color:grey;  
+    padding-bottom: 1rem;
+    color:grey; 
 }
 
 .content{
@@ -73,3 +79,36 @@
     background-color: white;
     height: 3rem;
 }
+/* #endregion Main */
+
+/* #region Footer */
+#site_footer{
+    margin-left: 12rem;
+}
+
+.news{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    font-size: medium;
+    padding-bottom: 0.5rem;
+
+}
+
+.footer{
+    color: white;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    font-size: large;
+    padding: 1rem 1rem;
+}
+
+#first_image{
+    background-image: url(./img/monitor.jpg);
+}
+
+#second_image{
+    background-image: url(./img/graph.jpg);
+}
+
+/* #endregion Footer */
