@@ -51,3 +51,25 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
 }
+
+.table_initial{
+    border-spacing: 0;
+    text-align: left;
+    }
+
+.table_heading{
+    background-color: rgb(0, 170, 255);
+    color: white;
+    height: 1rem;
+}
+
+.table_tr_odd{
+    background-color: rgb(161, 207, 222);
+    height: 3rem;
+
+}
+
+.table_tr_even{
+    background-color: white;
+    height: 3rem;
+}
